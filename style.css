@@ -1,0 +1,55 @@
+body{
+    background-image: url(love.bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.text{
+    width: 40%;
+    color: rgb(139, 231, 231);
+    font-size: 16px;
+    animation-name: mytext;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes mytext{
+    from{ width: 40%;
+        color: rgb(139, 231, 231);
+        font-size: 16px;
+        animation-name: mytext;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;}
+
+        to{ width: 60%;
+            color: rgb(244, 3, 100);
+            font-size: 28px;
+            animation-name: mytext;
+            animation-iteration-count: infinite;
+            animation-duration: 6s;}
+
+}
+.btn{
+    padding-left: 35%;
+    padding-right: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+#yes_btn{
+    width: 170px;
+    font-size: 30px;
+    color: whitesmoke;
+    height: 50px;
+    background-color: rgb(131, 231, 55);
+    border-radius: 5px;
+}
+#no_btn{
+    width: 170px;
+    font-size: 30px;
+    color: whitesmoke;
+    height: 50px;
+    background-color: rgb(216, 85, 20);
+    border-radius: 5px;
+}
